@@ -1,0 +1,16 @@
+:root{
+    --texto-correcto:green;  
+    --fondo-principal:darkgray; 
+}
+
+.titulo{
+    font-size: 20px;
+    text-align: center;
+    color: var(--texto-correcto);
+
+}
+
+.recuadro{
+    color: var(--texto-correcto);
+    background-color: var(--fondo-principal);
+}
