@@ -1,0 +1,22 @@
+:root{
+    --celeste:#00c0ef;  
+    --amarillo:#ffd200; 
+    --margenes:10px;
+}
+
+.version-1{
+    background-color:var(--celeste);
+    margin: var(--margenes);
+}
+
+.version-2{
+    background-color: var(--amarillo);
+    margin: var(--margenes);
+}
+
+.version-1, .version-2{
+    padding: 10px;
+    color:#fff;
+    font-size: 10px;
+    max-height:16px;
+}
